@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D2061" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoomStatus">
+            <connections>
+                <outlet property="lbl_banner" destination="AJC-IB-pXg" id="dSb-NY-8EZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="btn_rooms" destination="caL-pA-ai9" id="FTu-fE-Tui"/>
+                <outletCollection property="btn_rooms" destination="7GW-hN-SWQ" id="LJf-Qh-NFW"/>
+                <outletCollection property="btn_rooms" destination="scH-Pm-hGc" id="ngj-YK-iuy"/>
+                <outletCollection property="btn_rooms" destination="2le-6B-eFv" id="uAb-Kd-lqY"/>
+                <outletCollection property="btn_rooms" destination="EWp-bN-QSm" id="fme-ts-jmT"/>
+                <outletCollection property="btn_rooms" destination="Iv3-Rb-4B4" id="mb2-8I-uGo"/>
+                <outletCollection property="btn_rooms" destination="Rlv-2n-LDf" id="qkO-LA-xo6"/>
+                <outletCollection property="btn_rooms" destination="lQJ-Sy-HxM" id="AWi-uN-Ovu"/>
+                <outletCollection property="btn_rooms" destination="ZkR-ZN-sWa" id="t0R-Yx-kuG"/>
+                <outletCollection property="btn_rooms" destination="h3G-6D-ENb" id="Qan-LM-Nan"/>
+                <outletCollection property="btn_rooms" destination="Gvr-Lg-HA5" id="4c8-SR-xSO"/>
+                <outletCollection property="btn_rooms" destination="Y4w-6H-UGW" id="Lh9-kj-aoY"/>
+                <outletCollection property="btn_rooms" destination="FEX-kb-kwC" id="yOn-iA-24H"/>
+                <outletCollection property="btn_rooms" destination="Zpe-iM-sIP" id="kee-u8-auB"/>
+                <outletCollection property="btn_rooms" destination="mKe-wG-HIm" id="GZM-Pb-UG6"/>
+                <outletCollection property="btn_rooms" destination="PE2-ST-LVa" id="XK0-Tx-jJn"/>
+                <outletCollection property="btn_rooms" destination="eDc-Ew-Khx" id="AYj-dh-yZN"/>
+                <outletCollection property="btn_rooms" destination="eu7-X6-WcJ" id="rWC-8I-teZ"/>
+                <outletCollection property="btn_rooms" destination="Qeh-92-dgD" id="jSS-m3-LOQ"/>
+                <outletCollection property="btn_rooms" destination="Y0w-T5-hkC" id="l41-p7-Jb9"/>
+                <outletCollection property="btn_rooms" destination="6ji-5g-SJg" id="rqC-Mc-U5L"/>
+                <outletCollection property="btn_rooms" destination="59Y-lv-1Zy" id="hhY-77-8gd"/>
+                <outletCollection property="btn_rooms" destination="Igu-BY-2ND" id="hPQ-FN-r7h"/>
+                <outletCollection property="btn_rooms" destination="Pqy-2F-oFp" id="iu3-5W-KAt"/>
+                <outletCollection property="btn_rooms" destination="W4m-Xb-d4h" id="ibV-53-i52"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GW-hN-SWQ">
+                    <rect key="frame" x="77" y="102" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="502">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="dts-7C-drH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caL-pA-ai9">
+                    <rect key="frame" x="19" y="102" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="501">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="YWx-xU-JSx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="scH-Pm-hGc">
+                    <rect key="frame" x="136" y="102" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="503">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="fTM-sp-dT7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2le-6B-eFv">
+                    <rect key="frame" x="194" y="102" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="504">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="fL1-nK-zvk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWp-bN-QSm">
+                    <rect key="frame" x="252" y="102" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="505">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="e0t-hN-5qp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rlv-2n-LDf">
+                    <rect key="frame" x="76" y="160" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="402">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="NMu-bX-BTb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iv3-Rb-4B4">
+                    <rect key="frame" x="18" y="160" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="401">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="yu2-Al-5G0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQJ-Sy-HxM">
+                    <rect key="frame" x="135" y="160" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="403">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="Hgu-Fq-Jo3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZkR-ZN-sWa">
+                    <rect key="frame" x="193" y="160" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="404">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="8xO-QP-NB7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3G-6D-ENb">
+                    <rect key="frame" x="251" y="160" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="405">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="63b-wJ-Zdk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4w-6H-UGW">
+                    <rect key="frame" x="76" y="218" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="302">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="3YF-qD-ZFC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gvr-Lg-HA5">
+                    <rect key="frame" x="18" y="218" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="301">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="dl9-Jv-qwe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEX-kb-kwC">
+                    <rect key="frame" x="135" y="218" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="303">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="AR4-oE-xhb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zpe-iM-sIP">
+                    <rect key="frame" x="193" y="218" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="304">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="OmL-yB-qlR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKe-wG-HIm">
+                    <rect key="frame" x="251" y="218" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="305">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="Sga-Ls-OPq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDc-Ew-Khx">
+                    <rect key="frame" x="77" y="276" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="202">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="vEf-88-xmh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PE2-ST-LVa">
+                    <rect key="frame" x="19" y="276" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="201">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="SzL-MY-tcU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eu7-X6-WcJ">
+                    <rect key="frame" x="136" y="276" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="203">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="2f1-Ev-DSf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qeh-92-dgD">
+                    <rect key="frame" x="194" y="276" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="204">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="JFO-72-0kr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0w-T5-hkC">
+                    <rect key="frame" x="252" y="276" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="205">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="XUV-c0-bDd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59Y-lv-1Zy">
+                    <rect key="frame" x="76" y="334" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="102">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="Fuf-O5-VPZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ji-5g-SJg">
+                    <rect key="frame" x="18" y="334" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="101">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="SgX-gr-J0N"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igu-BY-2ND">
+                    <rect key="frame" x="135" y="334" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="103">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="y2i-5P-3wE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pqy-2F-oFp">
+                    <rect key="frame" x="193" y="334" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="104">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="pfR-4l-vyg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4m-Xb-d4h">
+                    <rect key="frame" x="251" y="334" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="105">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_room_click:" destination="-1" eventType="touchUpInside" id="qZJ-KQ-CLa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2W2-3A-L2h">
+                    <rect key="frame" x="86" y="414" width="150" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.61013323639999995" green="0.83976602280000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn_cancel_click:" destination="-1" eventType="touchUpInside" id="dpz-Rp-d6n"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJC-IB-pXg">
+                    <rect key="frame" x="85" y="49" width="150" height="38"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>

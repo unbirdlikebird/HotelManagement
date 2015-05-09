@@ -14,13 +14,22 @@
 		370FFAA21AEDB7700023966C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAA11AEDB7700023966C /* main.m */; };
 		370FFAA61AEDB7710023966C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAA51AEDB7710023966C /* AppDelegate.m */; };
 		370FFAA91AEDB7710023966C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 370FFAA71AEDB7710023966C /* Main.storyboard */; };
-		370FFAAC1AEDB7710023966C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAAB1AEDB7710023966C /* ViewController.m */; };
 		370FFAAE1AEDB7710023966C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370FFAAD1AEDB7710023966C /* Images.xcassets */; };
 		370FFAB51AEDB7710023966C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370FFAB41AEDB7710023966C /* XCTest.framework */; };
 		370FFAB61AEDB7710023966C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370FFA951AEDB7700023966C /* Foundation.framework */; };
 		370FFAB71AEDB7710023966C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370FFA991AEDB7700023966C /* UIKit.framework */; };
 		370FFABF1AEDB7710023966C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 370FFABD1AEDB7710023966C /* InfoPlist.strings */; };
 		370FFAC11AEDB7710023966C /* iOSHotelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAC01AEDB7710023966C /* iOSHotelTests.m */; };
+		370FFACD1AEDB7900023966C /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFACB1AEDB7900023966C /* Login.m */; };
+		370FFACE1AEDB7900023966C /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370FFACC1AEDB7900023966C /* Login.xib */; };
+		370FFAD21AEDB79F0023966C /* Option.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAD01AEDB79F0023966C /* Option.m */; };
+		370FFAD31AEDB79F0023966C /* Option.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370FFAD11AEDB79F0023966C /* Option.xib */; };
+		370FFAD71AEDB7B20023966C /* RoomStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAD51AEDB7B20023966C /* RoomStatus.m */; };
+		370FFAD81AEDB7B20023966C /* RoomStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370FFAD61AEDB7B20023966C /* RoomStatus.xib */; };
+		370FFADE1AEDB7D50023966C /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFADD1AEDB7D50023966C /* Database.m */; };
+		370FFAE11AEDB7DE0023966C /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAE01AEDB7DE0023966C /* Customer.m */; };
+		370FFAE51AEDBE4A0023966C /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 370FFAE31AEDBE4A0023966C /* UserInput.m */; };
+		370FFAE61AEDBE4A0023966C /* UserInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370FFAE41AEDBE4A0023966C /* UserInput.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +54,28 @@
 		370FFAA41AEDB7710023966C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		370FFAA51AEDB7710023966C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		370FFAA81AEDB7710023966C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		370FFAAA1AEDB7710023966C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		370FFAAB1AEDB7710023966C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		370FFAAD1AEDB7710023966C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		370FFAB31AEDB7710023966C /* iOSHotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370FFAB41AEDB7710023966C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		370FFABC1AEDB7710023966C /* iOSHotelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSHotelTests-Info.plist"; sourceTree = "<group>"; };
 		370FFABE1AEDB7710023966C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		370FFAC01AEDB7710023966C /* iOSHotelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSHotelTests.m; sourceTree = "<group>"; };
+		370FFACA1AEDB7900023966C /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		370FFACB1AEDB7900023966C /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		370FFACC1AEDB7900023966C /* Login.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		370FFACF1AEDB79F0023966C /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option.h; sourceTree = "<group>"; };
+		370FFAD01AEDB79F0023966C /* Option.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option.m; sourceTree = "<group>"; };
+		370FFAD11AEDB79F0023966C /* Option.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Option.xib; sourceTree = "<group>"; };
+		370FFAD41AEDB7B20023966C /* RoomStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomStatus.h; sourceTree = "<group>"; };
+		370FFAD51AEDB7B20023966C /* RoomStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomStatus.m; sourceTree = "<group>"; };
+		370FFAD61AEDB7B20023966C /* RoomStatus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoomStatus.xib; sourceTree = "<group>"; };
+		370FFADC1AEDB7D50023966C /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		370FFADD1AEDB7D50023966C /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		370FFADF1AEDB7DE0023966C /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		370FFAE01AEDB7DE0023966C /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		370FFAE21AEDBE4A0023966C /* UserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
+		370FFAE31AEDBE4A0023966C /* UserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		370FFAE41AEDBE4A0023966C /* UserInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInput.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +138,22 @@
 				370FFAA41AEDB7710023966C /* AppDelegate.h */,
 				370FFAA51AEDB7710023966C /* AppDelegate.m */,
 				370FFAA71AEDB7710023966C /* Main.storyboard */,
-				370FFAAA1AEDB7710023966C /* ViewController.h */,
-				370FFAAB1AEDB7710023966C /* ViewController.m */,
+				370FFACA1AEDB7900023966C /* Login.h */,
+				370FFACB1AEDB7900023966C /* Login.m */,
+				370FFACC1AEDB7900023966C /* Login.xib */,
+				370FFACF1AEDB79F0023966C /* Option.h */,
+				370FFAD01AEDB79F0023966C /* Option.m */,
+				370FFAD11AEDB79F0023966C /* Option.xib */,
+				370FFAD41AEDB7B20023966C /* RoomStatus.h */,
+				370FFAD51AEDB7B20023966C /* RoomStatus.m */,
+				370FFAD61AEDB7B20023966C /* RoomStatus.xib */,
+				370FFAE21AEDBE4A0023966C /* UserInput.h */,
+				370FFAE31AEDBE4A0023966C /* UserInput.m */,
+				370FFAE41AEDBE4A0023966C /* UserInput.xib */,
+				370FFADC1AEDB7D50023966C /* Database.h */,
+				370FFADD1AEDB7D50023966C /* Database.m */,
+				370FFADF1AEDB7DE0023966C /* Customer.h */,
+				370FFAE01AEDB7DE0023966C /* Customer.m */,
 				370FFAAD1AEDB7710023966C /* Images.xcassets */,
 				370FFA9C1AEDB7700023966C /* Supporting Files */,
 			);
@@ -228,9 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370FFAE61AEDBE4A0023966C /* UserInput.xib in Resources */,
 				370FFAAE1AEDB7710023966C /* Images.xcassets in Resources */,
 				370FFAA01AEDB7700023966C /* InfoPlist.strings in Resources */,
 				370FFAA91AEDB7710023966C /* Main.storyboard in Resources */,
+				370FFAD31AEDB79F0023966C /* Option.xib in Resources */,
+				370FFAD81AEDB7B20023966C /* RoomStatus.xib in Resources */,
+				370FFACE1AEDB7900023966C /* Login.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				370FFAAC1AEDB7710023966C /* ViewController.m in Sources */,
+				370FFAD71AEDB7B20023966C /* RoomStatus.m in Sources */,
+				370FFAD21AEDB79F0023966C /* Option.m in Sources */,
+				370FFADE1AEDB7D50023966C /* Database.m in Sources */,
+				370FFACD1AEDB7900023966C /* Login.m in Sources */,
 				370FFAA61AEDB7710023966C /* AppDelegate.m in Sources */,
+				370FFAE51AEDBE4A0023966C /* UserInput.m in Sources */,
 				370FFAA21AEDB7700023966C /* main.m in Sources */,
+				370FFAE11AEDB7DE0023966C /* Customer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

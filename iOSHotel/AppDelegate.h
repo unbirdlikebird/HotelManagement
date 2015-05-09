@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Login.h"
+#import "Database.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
